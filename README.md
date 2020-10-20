@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+  <a href="https://e-commerce-template.surge.sh/">
+    <img src="public/images/rb_logo.png" alt="RBE logo" width="200" height="165">
+  </a>
+</p>
+<h3 align="center">E-Commerce Template</h3>
 
-In the project directory, you can run:
+<p align="center">
+ Built with React JS, Bootstrap 5
+  <br>
+  <a href="https://e-commerce-template.surge.sh/"><strong>Demo »</strong></a>
+  <br>
+  <br>
 
-### `npm start`
+## E-Commerce Template
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Built with React JS and Bootstrap 5
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Table of contents
+- [Quick start](#quick-start)
+- [Buy Me A Coffee](#buy-me-a-coffee)
+- [What's included](#whats-included)
+- [Thanks](#thanks)
+- [Copyright and license](#copyright-and-license)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Quick start
 
-### `npm run build`
+Several quick start options are available:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Download the latest branch](https://github.com/twbs/bootstrap/archive/v5.0.0-alpha2.zip)
+- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
+- Install with [npm](https://www.npmjs.com/): `npm install`
+- Runs the app in the development mode `npm start`
+- Builds the app for production to the `build` folder `npm run build`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Buy Me A Coffee
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![BuyMeACoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/bhaumik)
 
-### `npm run eject`
+## What's included
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ - Sign Up
+ - Sign In
+ - Forgot Password
+ - Home Page
+ - Product List (List/Grid View)
+ - Product Detail
+ - Cart
+ - Checkout
+ - My Account (Change Password, Setting, Saved Card)
+ - Star Zone Page
+ - Orders
+ - Wishlist's
+ - Notification
+ - Support
+ - Contact Us
+ - Blog
+ - Blog Detail Page
+ - Error Page (404, 500)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Thanks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<a href="https://www.getbootstrap.com/">
+  <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap Logo" width="200" height="150">
+</a>
+<a href="https://reactjs.org/"><img src="https://reactjs.org/logo-180x180.png" alt="Bootstrap Logo" width="180" height="180">
+</a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Copyright and license
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
