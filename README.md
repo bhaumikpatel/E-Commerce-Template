@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="https://e-commerce-template.surge.sh/">
     <img src="public/images/rb_logo.png" alt="RBE logo" width="200" height="165">
@@ -18,18 +17,18 @@
 Built with React JS and Bootstrap 5
 
 ## Table of contents
+
 - [Quick start](#quick-start)
 - [Buy Me A Coffee](#buy-me-a-coffee)
 - [What's included](#whats-included)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
-
 ## Quick start
 
 Several quick start options are available:
 
-- [Download the latest branch](https://github.com/twbs/bootstrap/archive/v5.0.0-alpha2.zip)
+- [Download the latest branch](https://github.com/bhaumikpatel/E-Commerce-Template)
 - Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
 - Install with [npm](https://www.npmjs.com/): `npm install`
 - Runs the app in the development mode `npm start`
@@ -41,33 +40,34 @@ Several quick start options are available:
 
 ## What's included
 
- - Sign Up
- - Sign In
- - Forgot Password
- - Home Page
- - Product List (List/Grid View)
- - Product Detail
- - Cart
- - Checkout
- - My Account (Change Password, Setting, Saved Card)
- - Star Zone Page
- - Orders
- - Wishlist's
- - Notification
- - Support
- - Contact Us
- - Blog
- - Blog Detail Page
- - Error Page (404, 500)
+- Sign Up
+- Sign In
+- Forgot Password
+- Home Page
+- Product List (List/Grid View)
+- Product Detail
+- Cart
+- Checkout
+- My Account (Change Password, Setting, Saved Card)
+- Star Zone Page
+- Orders
+- Wishlist's
+- Notification
+- Support
+- Contact Us
+- Blog
+- Blog Detail Page
+- Error Page (404, 500)
 
 ## Thanks
 
-<a href="https://www.getbootstrap.com/">
+<a href="https://www.getbootstrap.com/" title="Bootstrap">
   <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap Logo" width="200" height="150">
 </a>
-<a href="https://reactjs.org/"><img src="https://reactjs.org/logo-180x180.png" alt="Bootstrap Logo" width="180" height="180">
+<a href="https://reactjs.org/" title="React JS"><img src="https://reactjs.org/logo-180x180.png" alt="React Logo" width="180" height="180">
 </a>
-
+<a href="https://fontawesome.com/" title="Font Awesome"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Font_Awesome_5_logo_black.svg" alt="Font Awesome Logo" width="180" height="180">
+</a>
 
 ## Copyright and license
 
