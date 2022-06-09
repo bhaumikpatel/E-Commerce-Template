@@ -43,32 +43,32 @@ class ProductDetailView extends Component {
                 />
                 <img
                   src="../../images/products/tshirt_grey_480x400.webp"
-                  className="border border-secondary mr-2" width="75"
+                  className="border border-secondary me-2" width="75"
                   alt="..."
                 />
                 <img
                   src="../../images/products/tshirt_black_480x400.webp"
-                  className="border border-secondary mr-2" width="75"
+                  className="border border-secondary me-2" width="75"
                   alt="..."
                 />
                 <img
                   src="../../images/products/tshirt_green_480x400.webp"
-                  className="border border-secondary mr-2" width="75"
+                  className="border border-secondary me-2" width="75"
                   alt="..."
                 />
               </div>
               <div className="col-md-7">
-                <h1 className="h5 d-inline mr-2">
+                <h1 className="h5 d-inline me-2">
                   Great product name goes here
                 </h1>
-                <span className="badge bg-success mr-2">New</span>
-                <span className="badge bg-danger mr-2">Hot</span>
+                <span className="badge bg-success me-2">New</span>
+                <span className="badge bg-danger me-2">Hot</span>
                 <div className="mb-3">
-                  <IconStarFill className="text-warning mr-1" />
-                  <IconStarFill className="text-warning mr-1" />
-                  <IconStarFill className="text-warning mr-1" />
-                  <IconStarFill className="text-warning mr-1" />
-                  <IconStarFill className="text-secondary mr-1" />|{" "}
+                  <IconStarFill className="text-warning me-1" />
+                  <IconStarFill className="text-warning me-1" />
+                  <IconStarFill className="text-warning me-1" />
+                  <IconStarFill className="text-warning me-1" />
+                  <IconStarFill className="text-secondary me-1" />|{" "}
                   <span className="text-muted small">
                     42 ratings and 4 reviews
                   </span>
@@ -140,25 +140,25 @@ class ProductDetailView extends Component {
                   </dd>
                   <dt className="col-sm-3">Color</dt>
                   <dd className="col-sm-9">
-                    <button className="btn btn-sm btn-primary p-2 mr-2"></button>
-                    <button className="btn btn-sm btn-secondary p-2 mr-2"></button>
-                    <button className="btn btn-sm btn-success p-2 mr-2"></button>
-                    <button className="btn btn-sm btn-danger p-2 mr-2"></button>
-                    <button className="btn btn-sm btn-warning p-2 mr-2"></button>
-                    <button className="btn btn-sm btn-info p-2 mr-2"></button>
-                    <button className="btn btn-sm btn-dark p-2 mr-2"></button>
+                    <button className="btn btn-sm btn-primary p-2 me-2"></button>
+                    <button className="btn btn-sm btn-secondary p-2 me-2"></button>
+                    <button className="btn btn-sm btn-success p-2 me-2"></button>
+                    <button className="btn btn-sm btn-danger p-2 me-2"></button>
+                    <button className="btn btn-sm btn-warning p-2 me-2"></button>
+                    <button className="btn btn-sm btn-info p-2 me-2"></button>
+                    <button className="btn btn-sm btn-dark p-2 me-2"></button>
                   </dd>
                 </dl>
 
                 <div className="mb-3">
-                  <span className="font-weight-bold h5 mr-2">$1900</span>
-                  <del className="small text-muted mr-2">$2000</del>
-                  <span className="rounded p-1 bg-warning  mr-2 small">
+                  <span className="fw-bold h5 me-2">$1900</span>
+                  <del className="small text-muted me-2">$2000</del>
+                  <span className="rounded p-1 bg-warning  me-2 small">
                     -$100
                   </span>
                 </div>
                 <div className="mb-3">
-                  <div className="d-inline float-left mr-2">
+                  <div className="d-inline float-start me-2">
                     <div className="input-group input-group-sm mw-140">
                       <button
                         className="btn btn-primary text-white"
@@ -181,14 +181,14 @@ class ProductDetailView extends Component {
                   </div>
                   <button
                     type="button"
-                    className="btn btn-sm btn-primary mr-2"
+                    className="btn btn-sm btn-primary me-2"
                     title="Add to cart"
                   >
                     <FontAwesomeIcon icon={faCartPlus} /> Add to cart
                   </button>
                   <button
                     type="button"
-                    className="btn btn-sm btn-warning mr-2"
+                    className="btn btn-sm btn-warning me-2"
                     title="Buy now"
                   >
                     <FontAwesomeIcon icon={faShoppingCart} /> Buy now
@@ -202,7 +202,7 @@ class ProductDetailView extends Component {
                   </button>
                 </div>
                 <div>
-                  <p className="font-weight-bold mb-2 small">
+                  <p className="fw-bold mb-2 small">
                     Product Highlights
                   </p>
                   <ul className="small">
@@ -222,7 +222,7 @@ class ProductDetailView extends Component {
                     <a
                       className="nav-link active"
                       id="nav-details-tab"
-                      data-toggle="tab"
+                      data-bs-toggle="tab"
                       href="#nav-details"
                       role="tab"
                       aria-controls="nav-details"
@@ -233,7 +233,7 @@ class ProductDetailView extends Component {
                     <a
                       className="nav-link"
                       id="nav-randr-tab"
-                      data-toggle="tab"
+                      data-bs-toggle="tab"
                       href="#nav-randr"
                       role="tab"
                       aria-controls="nav-randr"
@@ -244,7 +244,7 @@ class ProductDetailView extends Component {
                     <a
                       className="nav-link"
                       id="nav-faq-tab"
-                      data-toggle="tab"
+                      data-bs-toggle="tab"
                       href="#nav-faq"
                       role="tab"
                       aria-controls="nav-faq"
@@ -255,7 +255,7 @@ class ProductDetailView extends Component {
                     <a
                       className="nav-link"
                       id="nav-ship-returns-tab"
-                      data-toggle="tab"
+                      data-bs-toggle="tab"
                       href="#nav-ship-returns"
                       role="tab"
                       aria-controls="nav-ship-returns"
@@ -266,7 +266,7 @@ class ProductDetailView extends Component {
                     <a
                       className="nav-link"
                       id="nav-size-chart-tab"
-                      data-toggle="tab"
+                      data-bs-toggle="tab"
                       href="#nav-size-chart"
                       role="tab"
                       aria-controls="nav-size-chart"

@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import TopMenu from "./components/TopMenu";
@@ -40,36 +40,36 @@ function App() {
             <div className="text-white text-center mt-3">Loading...</div>
           }
         >
-          <Switch>
-            <Route exact path="/" component={HomeView} />
-            <Route exact path="/account/signin" component={SignInView} />
-            <Route exact path="/account/signup" component={SignUpView} />
+          <Routes>
+            <Route exact path="/" element={<HomeView/>} />
+            <Route exact path="/account/signin" element={<SignInView/>} />
+            <Route exact path="/account/signup" element={<SignUpView/>} />
             <Route
               exact
               path="/account/forgotpassword"
-              component={ForgotPasswordView}
+              element={<ForgotPasswordView/>}
             />
-            <Route exact path="/account/profile" component={MyProfileView} />
-            <Route exact path="/account/orders" component={OrdersView} />
-            <Route exact path="/account/wishlist" component={WishlistView} />
+            <Route exact path="/account/profile" element={<MyProfileView/>} />
+            <Route exact path="/account/orders" element={<OrdersView/>} />
+            <Route exact path="/account/wishlist" element={<WishlistView/>} />
             <Route
               exact
               path="/account/notification"
-              component={NotificationView}
+              element={<NotificationView/>}
             />
-            <Route exact path="/category" component={ProductListView} />
-            <Route exact path="/product/detail" component={ProductDetailView} />
-            <Route exact path="/star/zone" component={StarZoneView} />
-            <Route exact path="/cart" component={CartView} />
-            <Route exact path="/checkout" component={CheckoutView} />
-            <Route exact path="/documentation" component={DocumentationView} />
-            <Route exact path="/contact-us" component={ContactUsView} />
-            <Route exact path="/support" component={SupportView} />
-            <Route exact path="/blog" component={BlogView} />
-            <Route exact path="/blog/detail" component={BlogDetailView} />
-            <Route exact path="/500" component={InternalServerErrorView} />
-            <Route component={NotFoundView} />
-          </Switch>
+            <Route exact path="/category" element={<ProductListView/>} />
+            <Route exact path="/product/detail" element={<ProductDetailView/>} />
+            <Route exact path="/star/zone" element={<StarZoneView/>} />
+            <Route exact path="/cart" element={<CartView/>} />
+            <Route exact path="/checkout" element={<CheckoutView/>} />
+            <Route exact path="/documentation" element={<DocumentationView/>} />
+            <Route exact path="/contact-us" element={<ContactUsView/>} />
+            <Route exact path="/support" element={<SupportView/>} />
+            <Route exact path="/blog" element={<BlogView/>} />
+            <Route exact path="/blog/detail" element={<BlogDetailView/>} />
+            <Route exact path="/500" element={<InternalServerErrorView/>} />
+            <Route path="*" element={<NotFoundView/>} />
+          </Routes>
         </Suspense>
         <Footer />
       </React.Fragment>

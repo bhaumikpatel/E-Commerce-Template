@@ -80,18 +80,20 @@ const SignUpForm = (props) => {
         minLength="8"
         className="mb-3"
       />
-      <button
-        type="submit"
-        className="btn btn-primary btn-block mb-3"
-        disabled={submitting}
-      >
-        Create
-      </button>
-      <Link className="float-left" to="/account/signin" title="Sign In">
+      <div className="d-grid">
+        <button
+          type="submit"
+          className="btn btn-primary mb-3"
+          disabled={submitting}
+        >
+          Create
+        </button>
+      </div>
+      <Link className="float-start" to="/account/signin" title="Sign In">
         Sing In
       </Link>
       <Link
-        className="float-right"
+        className="float-end"
         to="/account/forgotpassword"
         title="Forgot Password"
       >
@@ -104,13 +106,13 @@ const SignUpForm = (props) => {
           <p className="text-muted small">Or you can join with</p>
         </div>
         <div className="col- text-center">
-          <Link to="/" className="btn text-white bg-twitter mr-3">
+          <Link to="/" className="btn text-white bg-twitter me-3">
             <FontAwesomeIcon icon={faTwitter} />
           </Link>
-          <Link to="/" className="btn text-white mr-3 bg-facebook">
+          <Link to="/" className="btn text-white me-3 bg-facebook">
             <FontAwesomeIcon icon={faFacebookF} className="mx-1" />
           </Link>
-          <Link to="/" className="btn text-white mr-3 bg-google">
+          <Link to="/" className="btn text-white me-3 bg-google">
             <FontAwesomeIcon icon={faGoogle} className="mx-1" />
           </Link>
         </div>

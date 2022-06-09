@@ -13,10 +13,10 @@ const QuestionAnswer = (props) => {
         <div className="text-muted mb-2">By Venks on 12 January, 2020</div>
         <div className="mb-2">
           <i>Was this answer helpful?</i>
-          <button className="btn btn-sm btn-outline-success mr-2 ml-2">
+          <button className="btn btn-sm btn-outline-success me-2 ms-2">
             <FontAwesomeIcon icon={faThumbsUp} />
           </button>
-          <button className="btn btn-sm btn-outline-danger mr-2">
+          <button className="btn btn-sm btn-outline-danger me-2">
             <FontAwesomeIcon icon={faThumbsDown} />
           </button>
         </div>

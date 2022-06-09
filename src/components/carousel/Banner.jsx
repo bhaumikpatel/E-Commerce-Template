@@ -17,8 +17,8 @@ const Item = ({ item, index }) => (
 
 const Indicator = ({ item, index }) => (
   <li
-    data-target={`#${item}`}
-    data-slide-to={index}
+    data-bs-target={`#${item}`}
+    data-bs-slide-to={index}
     className={`${index === 0 ? "active" : ""}`}
   />
 );
@@ -28,7 +28,7 @@ const Banner = (props) => {
     <div
       id={props.id}
       className={`carousel slide ${props.className}`}
-      data-ride="carousel"
+      data-bs-ride="carousel"
       style={{ minHeight: 100 }}
     >
       <ol className="carousel-indicators">
@@ -45,7 +45,7 @@ const Banner = (props) => {
         className="carousel-control-prev"
         href={`#${props.id}`}
         role="button"
-        data-slide="prev"
+        data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true" />
         <span className="sr-only">Previous</span>
@@ -54,7 +54,7 @@ const Banner = (props) => {
         className="carousel-control-next"
         href={`#${props.id}`}
         role="button"
-        data-slide="next"
+        data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true" />
         <span className="sr-only">Next</span>

@@ -112,14 +112,15 @@ const ContactUsForm = (props) => {
           />
         </div>
       </div>
-
-      <button
-        type="submit"
-        className="btn btn-primary btn-block mt-3"
-        disabled={submitting}
-      >
-        Submit
-      </button>
+      <div className="d-grid">
+        <button
+          type="submit"
+          className="btn btn-primary mt-3"
+          disabled={submitting}
+        >
+          Submit
+        </button>
+      </div>
     </form>
   );
 };

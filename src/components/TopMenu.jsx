@@ -24,10 +24,11 @@ const TopMenu = () => {
             <ul className="navbar-nav">
               <li className="nav-item dropdown">
                 <button
-                  className="btn nav-link dropdown-toggle font-weight-bold"
+                  className="btn nav-link dropdown-toggle fw-bold"
                   id="navbarDropdown"
                   data-toggle="dropdown"
                   aria-expanded="false"
+                  data-bs-toggle="dropdown"
                 >
                   All Pages
                 </button>

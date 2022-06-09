@@ -32,17 +32,19 @@ const ForgotPasswordForm = (props) => {
         min="9999"
         className="mb-3"
       />
-      <button
-        type="submit"
-        className="btn btn-primary btn-block mb-3"
-        disabled={submitting}
-      >
-        Submit
-      </button>
-      <Link className="float-left" to="/account/signup" title="Sign Up">
+      <div className="d-grid">
+        <button
+          type="submit"
+          className="btn btn-primary mb-3"
+          disabled={submitting}
+        >
+          Submit
+        </button>
+      </div>
+      <Link className="float-start" to="/account/signup" title="Sign Up">
         Create your account
       </Link>
-      <Link className="float-right" to="/account/signin" title="Sign In">
+      <Link className="float-end" to="/account/signin" title="Sign In">
         Sign In
       </Link>
     </form>

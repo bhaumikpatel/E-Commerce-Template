@@ -46,3 +46,8 @@
 .i-va{
   vertical-align: -0.125em;
 }
+
+.breadcrumb {
+  padding: 0.5rem 1rem;
+  background-color: #e9ecef;
+}

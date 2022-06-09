@@ -27,35 +27,35 @@ const Footer = () => {
             </div>
             <div className="col-md-3 py-3 text-center text-white">
               <Link to="/" title="Apple">
-                <FontAwesomeIcon icon={faApple} className="text-light mr-3" />
+                <FontAwesomeIcon icon={faApple} className="text-light me-3" />
               </Link>
               <Link to="/" title="Windows">
-                <FontAwesomeIcon icon={faWindows} className="text-light mr-3" />
+                <FontAwesomeIcon icon={faWindows} className="text-light me-3" />
               </Link>
               <Link to="/" title="Android">
-                <FontAwesomeIcon icon={faAndroid} className="text-light mr-3" />
+                <FontAwesomeIcon icon={faAndroid} className="text-light me-3" />
               </Link>
               |
               <Link to="/" title="Twitter">
                 <FontAwesomeIcon
                   icon={faTwitter}
-                  className="text-light ml-3 mr-3"
+                  className="text-light ms-3 me-3"
                 />
               </Link>
               <Link to="/" title="Facebook">
                 <FontAwesomeIcon
                   icon={faFacebookF}
-                  className="text-light mr-3"
+                  className="text-light me-3"
                 />
               </Link>
               <Link to="/" title="Instagram">
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  className="text-light mr-3"
+                  className="text-light me-3"
                 />
               </Link>
               <Link to="/" title="Youtube">
-                <FontAwesomeIcon icon={faYoutube} className="text-light mr-3" />
+                <FontAwesomeIcon icon={faYoutube} className="text-light me-3" />
               </Link>
             </div>
           </div>
@@ -209,43 +209,43 @@ const Footer = () => {
                 src="../../images/payment/american_express.webp"
                 width="32"
                 alt="American Express"
-                className="mr-2"
+                className="me-2"
               />
               <img
                 src="../../images/payment/maestro.webp"
                 width="32"
                 alt="Maestro"
-                className="mr-2"
+                className="me-2"
               />
               <img
                 src="../../images/payment/netbanking.webp"
                 width="32"
                 alt="Net Banking"
-                className="mr-2"
+                className="me-2"
               />
               <img
                 src="../../images/payment/paypal.webp"
                 width="32"
                 alt="Paypal"
-                className="mr-2"
+                className="me-2"
               />
               <img
                 src="../../images/payment/rupay.webp"
                 width="32"
                 alt="Rupay"
-                className="mr-2"
+                className="me-2"
               />
               <img
                 src="../../images/payment/upi.webp"
                 width="32"
                 alt="UPI"
-                className="mr-2"
+                className="me-2"
               />
               <img
                 src="../../images/payment/visa.webp"
                 width="32"
                 alt="Visa"
-                className="mr-2"
+                className="me-2"
               />
             </div>
           </div>

@@ -60,7 +60,7 @@ const ChangePasswordForm = (props) => {
           />
           <button
             type="submit"
-            className="btn btn-info btn-block"
+            className="btn btn-info  d-flex"
             disabled={submitting}
           >
             Submit

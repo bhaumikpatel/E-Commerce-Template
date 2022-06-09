@@ -17,12 +17,12 @@ const CardList = (props) => {
         </h5>
         <p className="card-text">{item.description}</p>
         <p className="card-text">
-          <small className="mr-3">
-            <IconCalendarEvent className="i-va mr-1" />
+          <small className="me-3">
+            <IconCalendarEvent className="i-va me-1" />
             {item.publishDate}
           </small>
-          <small className="mr-3">
-            <IconTags className="i-va mr-1" />
+          <small className="me-3">
+            <IconTags className="i-va me-1" />
             {item.tags.map((item, idx) => (
               <span key={idx}>
                 <Link to="/" className="text-decoration-none">
@@ -33,7 +33,7 @@ const CardList = (props) => {
             ))}
           </small>
           <small className="">
-            <IconChatRightText className="i-va mr-1" />
+            <IconChatRightText className="i-va me-1" />
             <Link to="/" className="text-decoration-none">
               {item.commentCount} Comments
             </Link>

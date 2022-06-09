@@ -117,7 +117,7 @@ const ProfileForm = (props) => {
         <div className="card-body">
           <button
             type="submit"
-            className="btn btn-primary btn-block"
+            className="btn btn-primary  d-flex"
             disabled={submitting}
           >
             Submit

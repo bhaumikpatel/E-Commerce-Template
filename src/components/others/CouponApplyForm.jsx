@@ -25,7 +25,7 @@ const CouponApplyForm = (props) => {
       />
       <button
         type="submit"
-        className="btn btn-sm btn-primary mt-3 float-right"
+        className="btn btn-sm btn-primary mt-3 float-end"
         disabled={submitting}
       >
         Apply

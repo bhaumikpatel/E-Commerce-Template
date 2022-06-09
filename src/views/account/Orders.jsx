@@ -34,7 +34,7 @@ class OrdersView extends Component {
                       <span className="border bg-secondary rounded-left px-2 text-white">
                         Order ID
                       </span>
-                      <span className="border bg-white rounded-right px-2 mr-2">
+                      <span className="border bg-white rounded-right px-2 me-2">
                         #123456
                       </span>
                       <span className="border bg-secondary rounded-left px-2 text-white">
@@ -52,12 +52,12 @@ class OrdersView extends Component {
                       </Link>
                     </h6>
                     <div className="small">
-                      <span className="text-muted mr-2">Size:</span>
-                      <span className="mr-3">M</span>
-                      <span className="text-muted mr-2">Price:</span>
-                      <span className="mr-3">$1234</span>
-                      <span className="text-muted mr-2">Color:</span>
-                      <span className="mr-3">
+                      <span className="text-muted me-2">Size:</span>
+                      <span className="me-3">M</span>
+                      <span className="text-muted me-2">Price:</span>
+                      <span className="me-3">$1234</span>
+                      <span className="text-muted me-2">Color:</span>
+                      <span className="me-3">
                         <span className="bg-primary px-1 rounded">
                           &nbsp;&nbsp;&nbsp;
                         </span>
@@ -66,9 +66,9 @@ class OrdersView extends Component {
                     <div className="mt-2"></div>
                   </div>
                   <div className="card-footer">
-                    <span className="mr-2">Status:</span>
+                    <span className="me-2">Status:</span>
                     <span className="text-success">
-                      <FontAwesomeIcon icon={faCheckCircle} className="mr-1" />
+                      <FontAwesomeIcon icon={faCheckCircle} className="me-1" />
                       Completed
                     </span>
                   </div>
@@ -92,7 +92,7 @@ class OrdersView extends Component {
                       <span className="border bg-secondary rounded-left px-2 text-white">
                         Order ID
                       </span>
-                      <span className="border bg-white rounded-right px-2 mr-2">
+                      <span className="border bg-white rounded-right px-2 me-2">
                         #123456
                       </span>
                       <span className="border bg-secondary rounded-left px-2 text-white">
@@ -110,12 +110,12 @@ class OrdersView extends Component {
                       </Link>
                     </h6>
                     <div className="small">
-                      <span className="text-muted mr-2">Size:</span>
-                      <span className="mr-3">M</span>
-                      <span className="text-muted mr-2">Price:</span>
-                      <span className="mr-3">$1234</span>
-                      <span className="text-muted mr-2">Color:</span>
-                      <span className="mr-3">
+                      <span className="text-muted me-2">Size:</span>
+                      <span className="me-3">M</span>
+                      <span className="text-muted me-2">Price:</span>
+                      <span className="me-3">$1234</span>
+                      <span className="text-muted me-2">Color:</span>
+                      <span className="me-3">
                         <span className="bg-primary px-1 rounded">
                           &nbsp;&nbsp;&nbsp;
                         </span>
@@ -124,9 +124,9 @@ class OrdersView extends Component {
                     <div className="mt-2"></div>
                   </div>
                   <div className="card-footer">
-                    <span className="mr-2">Status:</span>
+                    <span className="me-2">Status:</span>
                     <span className="text-primary">
-                      <FontAwesomeIcon icon={faHistory} className="mr-1" />
+                      <FontAwesomeIcon icon={faHistory} className="me-1" />
                       Processing
                     </span>
                   </div>
@@ -150,7 +150,7 @@ class OrdersView extends Component {
                       <span className="border bg-secondary rounded-left px-2 text-white">
                         Order ID
                       </span>
-                      <span className="border bg-white rounded-right px-2 mr-2">
+                      <span className="border bg-white rounded-right px-2 me-2">
                         #123456
                       </span>
                       <span className="border bg-secondary rounded-left px-2 text-white">
@@ -168,12 +168,12 @@ class OrdersView extends Component {
                       </Link>
                     </h6>
                     <div className="small">
-                      <span className="text-muted mr-2">Size:</span>
-                      <span className="mr-3">M</span>
-                      <span className="text-muted mr-2">Price:</span>
-                      <span className="mr-3">$1234</span>
-                      <span className="text-muted mr-2">Color:</span>
-                      <span className="mr-3">
+                      <span className="text-muted me-2">Size:</span>
+                      <span className="me-3">M</span>
+                      <span className="text-muted me-2">Price:</span>
+                      <span className="me-3">$1234</span>
+                      <span className="text-muted me-2">Color:</span>
+                      <span className="me-3">
                         <span className="bg-primary px-1 rounded">
                           &nbsp;&nbsp;&nbsp;
                         </span>
@@ -182,11 +182,11 @@ class OrdersView extends Component {
                     <div className="mt-2"></div>
                   </div>
                   <div className="card-footer">
-                    <span className="mr-2">Status:</span>
+                    <span className="me-2">Status:</span>
                     <span className="text-warning">
                       <FontAwesomeIcon
                         icon={faExclamationTriangle}
-                        className="mr-1"
+                        className="me-1"
                       />
                       Pending
                     </span>
@@ -211,7 +211,7 @@ class OrdersView extends Component {
                       <span className="border bg-secondary rounded-left px-2 text-white">
                         Order ID
                       </span>
-                      <span className="border bg-white rounded-right px-2 mr-2">
+                      <span className="border bg-white rounded-right px-2 me-2">
                         #123456
                       </span>
                       <span className="border bg-secondary rounded-left px-2 text-white">
@@ -229,12 +229,12 @@ class OrdersView extends Component {
                       </Link>
                     </h6>
                     <div className="small">
-                      <span className="text-muted mr-2">Size:</span>
-                      <span className="mr-3">M</span>
-                      <span className="text-muted mr-2">Price:</span>
-                      <span className="mr-3">$1234</span>
-                      <span className="text-muted mr-2">Color:</span>
-                      <span className="mr-3">
+                      <span className="text-muted me-2">Size:</span>
+                      <span className="me-3">M</span>
+                      <span className="text-muted me-2">Price:</span>
+                      <span className="me-3">$1234</span>
+                      <span className="text-muted me-2">Color:</span>
+                      <span className="me-3">
                         <span className="bg-primary px-1 rounded">
                           &nbsp;&nbsp;&nbsp;
                         </span>
@@ -243,9 +243,9 @@ class OrdersView extends Component {
                     <div className="mt-2"></div>
                   </div>
                   <div className="card-footer">
-                    <span className="mr-2">Status:</span>
+                    <span className="me-2">Status:</span>
                     <span className="text-danger">
-                      <FontAwesomeIcon icon={faTimesCircle} className="mr-1" />
+                      <FontAwesomeIcon icon={faTimesCircle} className="me-1" />
                       Cancelled
                     </span>
                   </div>

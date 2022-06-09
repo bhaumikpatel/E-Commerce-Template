@@ -31,7 +31,7 @@ const CardDealsOfTheDay = (props) => {
             date={props.endDate}
             renderer={renderer}
           />
-          <span className="float-right">
+          <span className="float-end">
             <Link to={props.to} className="btn btn-sm btn-outline-primary">
               View All
             </Link>

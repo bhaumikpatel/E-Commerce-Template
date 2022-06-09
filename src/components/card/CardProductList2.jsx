@@ -15,33 +15,33 @@ const CardProductList2 = (props) => {
         </div>
         <div className="col-md-9">
           <div className="card-body">
-            <h6 className="card-subtitle mr-2 d-inline">
+            <h6 className="card-subtitle me-2 d-inline">
               <Link to={product.link} className="text-decoration-none">
                 {product.name}
               </Link>
             </h6>
             {product.isNew && (
-              <span className="badge bg-success mr-2">New</span>
+              <span className="badge bg-success me-2">New</span>
             )}
-            {product.isHot && <span className="badge bg-danger mr-2">Hot</span>}
+            {product.isHot && <span className="badge bg-danger me-2">Hot</span>}
             {product.star > 0 && (
               <span className="badge bg-secondary">
-                <IconStarFill className="text-warning i-va" /> {product.star}
+                <IconStarFill className="text-warning i-va" width={12} height={12} /> {product.star}
               </span>
             )}
           </div>
 
           <div className="card-footer">
             <div className="mb-2">
-              <span className="font-weight-bold h5 mr-2">${product.price}</span>
+              <span className="fw-bold h5 me-2">${product.price}</span>
               {product.originPrice > 0 && (
-                <del className="small text-muted mr-2">
+                <del className="small text-muted me-2">
                   ${product.originPrice}
                 </del>
               )}
               {(product.discountPercentage > 0 ||
                 product.discountPrice > 0) && (
-                <span className={`rounded p-1 bg-warning mr-2 small`}>
+                <span className={`rounded p-1 bg-warning me-2 small`}>
                   -
                   {product.discountPercentage > 0
                     ? product.discountPercentage + "%"
@@ -55,7 +55,7 @@ const CardProductList2 = (props) => {
               )}
             </div>
 
-            <div className="btn-group btn-block" role="group">
+            <div className="btn-group  d-flex" role="group">
               <button
                 type="button"
                 className="btn btn-sm btn-primary"

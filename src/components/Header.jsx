@@ -30,10 +30,10 @@ const Header = () => {
               <Search />
             </div>
             <div className="col-md-4">
-              <div className="position-relative d-inline mr-3">
+              <div className="position-relative d-inline me-3">
                 <Link to="/cart" className="btn btn-primary">
                   <IconCart3 className="i-va" />
-                  <div className="position-absolute top-0 left-100 translate-middle badge bg-danger rounded-circle">
+                  <div className="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-circle">
                     2
                   </div>
                 </Link>
@@ -41,10 +41,11 @@ const Header = () => {
               <div className="btn-group">
                 <button
                   type="button"
-                  className="btn btn-secondary rounded-circle border mr-3 dropdown-toggle1"
+                  className="btn btn-secondary rounded-circle border me-3"
                   data-toggle="dropdown"
                   aria-expanded="false"
                   aria-label="Profile"
+                  data-bs-toggle="dropdown"
                 >
                   <FontAwesomeIcon icon={faUser} className="text-light" />
                 </button>

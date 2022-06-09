@@ -26,7 +26,7 @@ export const data = {
       title: "Laptop",
       text: " Upto 20% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-primary",
+      cssClass: "text-primary",
     },
     {
       to: "/product/detail",
@@ -34,7 +34,7 @@ export const data = {
       title: "Headset",
       text: " Upto 50% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-secondary",
+      cssClass: "text-secondary",
     },
     {
       to: "/product/detail",
@@ -42,7 +42,7 @@ export const data = {
       title: "Phone",
       text: " Upto 20% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-danger",
+      cssClass: "text-danger",
     },
     {
       to: "/product/detail",
@@ -50,7 +50,7 @@ export const data = {
       title: "TV",
       text: " Upto 25% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-warning",
+      cssClass: "text-warning",
     },
     {
       to: "/product/detail",
@@ -58,7 +58,7 @@ export const data = {
       title: "Display",
       text: " Upto 30% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-info",
+      cssClass: "text-info",
     },
     {
       to: "/product/detail",
@@ -66,7 +66,7 @@ export const data = {
       title: "HDD",
       text: " Upto 15% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-success",
+      cssClass: "text-success",
     },
     {
       to: "/product/detail",
@@ -74,7 +74,7 @@ export const data = {
       title: "UPC Scan",
       text: " Upto 45% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-muted",
+      cssClass: "text-muted",
     },
     {
       to: "/product/detail",
@@ -82,7 +82,7 @@ export const data = {
       title: "Tools",
       text: " Upto 50% off",
       tips: "Sony, Dell, Lenovo",
-      cssClass: "display-1 text-primary",
+      cssClass: "text-primary",
     },
   ],
   products: [

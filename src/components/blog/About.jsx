@@ -8,7 +8,7 @@ const About = (props) => {
         props.className ? props.className : ""
       }`}
     >
-      <h4 className="font-italic">{props.title}</h4>
+      <h4 className="fst-italic">{props.title}</h4>
       <Line className="mb-2" />
       <p className="mb-0">
         Quis vero phasellus hac nullam, in quam vitae duis adipiscing mauris

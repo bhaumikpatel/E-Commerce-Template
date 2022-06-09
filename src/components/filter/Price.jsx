@@ -3,7 +3,7 @@ import React from "react";
 const FilterPrice = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header font-weight-bold text-uppercase">Price</div>
+      <div className="card-header fw-bold text-uppercase">Price</div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
           <div className="form-check">

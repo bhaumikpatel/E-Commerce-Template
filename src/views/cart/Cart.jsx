@@ -40,7 +40,7 @@ class CartView extends Component {
                         <th scope="col" width={150}>
                           Price
                         </th>
-                        <th scope="col" className="text-right" width={130}></th>
+                        <th scope="col" className="text-end" width={130}></th>
                       </tr>
                     </thead>
                     <tbody>
@@ -94,8 +94,8 @@ class CartView extends Component {
                             $79.00 each
                           </small>
                         </td>
-                        <td className="text-right">
-                          <button className="btn btn-sm btn-outline-secondary mr-2">
+                        <td className="text-end">
+                          <button className="btn btn-sm btn-outline-secondary me-2">
                             <IconHeartFill className="i-va" />
                           </button>
                           <button className="btn btn-sm btn-outline-danger">
@@ -153,8 +153,8 @@ class CartView extends Component {
                             $79.00 each
                           </small>
                         </td>
-                        <td className="text-right">
-                          <button className="btn btn-sm btn-outline-secondary mr-2">
+                        <td className="text-end">
+                          <button className="btn btn-sm btn-outline-secondary me-2">
                             <IconHeartFill className="i-va" />
                           </button>
                           <button className="btn btn-sm btn-outline-danger">
@@ -166,7 +166,7 @@ class CartView extends Component {
                   </table>
                 </div>
                 <div className="card-footer">
-                  <Link to="/checkout" className="btn btn-primary float-right">
+                  <Link to="/checkout" className="btn btn-primary float-end">
                     Make Purchase <IconChevronRight className="i-va" />
                   </Link>
                   <Link to="/" className="btn btn-secondary">
@@ -176,7 +176,7 @@ class CartView extends Component {
               </div>
               <div className="alert alert-success mt-3">
                 <p className="m-0">
-                  <IconTruck className="i-va mr-2" /> Free Delivery within 1-2
+                  <IconTruck className="i-va me-2" /> Free Delivery within 1-2
                   weeks
                 </p>
               </div>
@@ -191,19 +191,19 @@ class CartView extends Component {
                 <div className="card-body">
                   <dl className="row border-bottom">
                     <dt className="col-6">Total price:</dt>
-                    <dd className="col-6 text-right">$1,568</dd>
+                    <dd className="col-6 text-end">$1,568</dd>
 
                     <dt className="col-6 text-success">Discount:</dt>
-                    <dd className="col-6 text-success text-right">-$58</dd>
+                    <dd className="col-6 text-success text-end">-$58</dd>
                     <dt className="col-6 text-success">
                       Coupon:{" "}
                       <span className="small text-muted">EXAMPLECODE</span>{" "}
                     </dt>
-                    <dd className="col-6 text-success text-right">-$68</dd>
+                    <dd className="col-6 text-success text-end">-$68</dd>
                   </dl>
                   <dl className="row">
                     <dt className="col-6">Total:</dt>
-                    <dd className="col-6 text-right  h5">
+                    <dd className="col-6 text-end  h5">
                       <strong>$1,350</strong>
                     </dd>
                   </dl>

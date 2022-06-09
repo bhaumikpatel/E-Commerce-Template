@@ -41,13 +41,13 @@ class BlogDetailView extends Component {
                 Sample blog post
               </div>
               <p className="text-muted small">
-                <IconCalendarEvent className="i-va mr-1" /> Jan 1, 2021{" "}
+                <IconCalendarEvent className="i-va me-1" /> Jan 1, 2021{" "}
                 <i>Updated on Jan 02, 2020</i> by{" "}
-                <Link to="/" className="mr-2">
+                <Link to="/" className="me-2">
                   Admin
                 </Link>{" "}
-                <span className="text-success mr-2">
-                  <IconHandThumbsUp className="i-va mr-1" />
+                <span className="text-success me-2">
+                  <IconHandThumbsUp className="i-va me-1" />
                   21k
                 </span>
                 <span className="text-primary">
@@ -58,19 +58,19 @@ class BlogDetailView extends Component {
               <div className="mb-3">
                 <Link
                   to="/"
-                  className="badge text-decoration-none bg-warning mr-2"
+                  className="badge text-decoration-none bg-warning me-2"
                 >
                   #react
                 </Link>
                 <Link
                   to="/"
-                  className="badge text-decoration-none bg-danger mr-2"
+                  className="badge text-decoration-none bg-danger me-2"
                 >
                   #bootstrap
                 </Link>
                 <Link
                   to="/"
-                  className="badge text-decoration-none bg-dark mr-2"
+                  className="badge text-decoration-none bg-dark me-2"
                 >
                   #html5
                 </Link>
@@ -117,7 +117,7 @@ class BlogDetailView extends Component {
                 </div>
                 <div className="col-md-6">
                   <div>
-                    <p className="font-italic">Italic text.</p>
+                    <p className="fst-italic">Italic text.</p>
                     <p className="font-normal">Text without font style</p>
                     <p className="font-monospace">This is in monospace</p>
                     <p className="text-decoration-underline">
@@ -139,10 +139,10 @@ class BlogDetailView extends Component {
                 <code>&lt;section&gt;</code> should be wrapped as inline.
               </p>
               <ol>
-                <li className="font-weight-bold">
+                <li className="fw-bold">
                   Vestibulum id ligula porta felis euismod semper.
                 </li>
-                <li className="font-weight-bolder">
+                <li className="fw-bolder">
                   Cum sociis natoque penatibus et magnis dis parturient montes,
                   nascetur ridiculus mus.
                 </li>
@@ -160,7 +160,7 @@ class BlogDetailView extends Component {
                 className="img-fluid"
                 alt="..."
               />
-              <figure className="text-right">
+              <figure className="text-end">
                 <blockquote className="blockquote">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -332,39 +332,39 @@ class BlogDetailView extends Component {
               </div>
 
               <div className="border-top border-bottom py-3 mb-3">
-                <span className="mr-1">TAGS:</span>
-                <Link to="/" className="mr-2 bg-dark p-1 rounded text-decoration-none text-white small">
+                <span className="me-1">TAGS:</span>
+                <Link to="/" className="me-2 bg-dark p-1 rounded text-decoration-none text-white small">
                   Business
                 </Link>
-                <Link to="/" className="mr-2 bg-success p-1 rounded text-decoration-none text-white small">
+                <Link to="/" className="me-2 bg-success p-1 rounded text-decoration-none text-white small">
                   Coffee
                 </Link>
-                <Link to="/" className="mr-2 bg-primary p-1 rounded text-decoration-none text-white small">
+                <Link to="/" className="me-2 bg-primary p-1 rounded text-decoration-none text-white small">
                   Design
                 </Link>
-                <Link to="/" className="mr-2 bg-info p-1 rounded text-decoration-none text-white small">
+                <Link to="/" className="me-2 bg-info p-1 rounded text-decoration-none text-white small">
                   Morning
                 </Link>
-                <Link to="/" className="mr-2 bg-warning p-1 rounded text-decoration-none text-white small">
+                <Link to="/" className="me-2 bg-warning p-1 rounded text-decoration-none text-white small">
                   Fresh
                 </Link>
-                <Link to="/" className="mr-2 bg-danger p-1 rounded text-decoration-none text-white small">
+                <Link to="/" className="me-2 bg-danger p-1 rounded text-decoration-none text-white small">
                 Idea
                 </Link>
-                <div className="float-right">
-                  <Link to="/" className="btn btn-sm bg-twitter mr-2 p-0">
+                <div className="float-end">
+                  <Link to="/" className="btn btn-sm bg-twitter me-2 p-0">
                     <FontAwesomeIcon
                       icon={faTwitter}
                       className="text-white mx-1"
                     />
                   </Link>
-                  <Link to="/" className="btn btn-sm bg-facebook mr-2 p-0">
+                  <Link to="/" className="btn btn-sm bg-facebook me-2 p-0">
                     <FontAwesomeIcon
                       icon={faFacebookF}
                       className="text-white mx-1"
                     />
                   </Link>
-                  <Link to="/" className="btn btn-sm bg-instagram mr-2 p-0">
+                  <Link to="/" className="btn btn-sm bg-instagram me-2 p-0">
                     <FontAwesomeIcon
                       icon={faInstagram}
                       className="text-white mx-1"

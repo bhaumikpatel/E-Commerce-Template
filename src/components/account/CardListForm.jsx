@@ -9,24 +9,24 @@ const CardListForm = () => {
     <div className="card border-success">
       <h6 className="card-header">
         <IconCreditCard2FrontFill className="text-success" /> Saved Card
-        <button className="btn btn-sm btn-primary float-right"><FontAwesomeIcon icon={faPlus} className="text-light" /></button>
+        <button className="btn btn-sm btn-primary float-end"><FontAwesomeIcon icon={faPlus} className="text-light" /></button>
       </h6>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
           <IconCreditCard /> 123 *** *** 123{" "}
-          <button type="button" className="btn btn-sm btn-danger ml-3">
+          <button type="button" className="btn btn-sm btn-danger ms-3">
             <IconTrash />
           </button>
         </li>
         <li className="list-group-item">
           <IconCreditCard /> 123 *** *** 123{" "}
-          <button type="button" className="btn btn-sm btn-danger ml-3">
+          <button type="button" className="btn btn-sm btn-danger ms-3">
             <IconTrash />
           </button>
         </li>
         <li className="list-group-item">
           <IconCreditCard /> 123 *** *** 123{" "}
-          <button type="button" className="btn btn-sm btn-danger ml-3">
+          <button type="button" className="btn btn-sm btn-danger ms-3">
             <IconTrash />
           </button>
         </li>

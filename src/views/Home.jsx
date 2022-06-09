@@ -54,7 +54,7 @@ class HomeView extends Component {
                   tips={product.tips}
                   to={product.to}
                 >
-                  <ProductImage className={product.cssClass} />
+                  <ProductImage className={product.cssClass} width="80" height="80" />
                 </CardIcon>
               </div>
             );

@@ -14,25 +14,25 @@ const SettingForm = () => {
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
           <IconBell /> Notification
-          <div className="form-check form-switch float-right">
+          <div className="form-check form-switch float-end">
             <input className="form-check-input" type="checkbox" />
           </div>
         </li>
         <li className="list-group-item">
           <IconEnvelope /> E-Mail and SMS
-          <div className="form-check form-switch float-right">
+          <div className="form-check form-switch float-end">
             <input className="form-check-input" type="checkbox" />
           </div>
         </li>
         <li className="list-group-item">
           <IconPercent /> Promotional offers E-Mail and SMS
-          <div className="form-check form-switch float-right">
+          <div className="form-check form-switch float-end">
             <input className="form-check-input" type="checkbox" disabled />
           </div>
         </li>
         <li className="list-group-item bg-danger text-white">
           <IconTrash /> Delete Account{" "}
-          <button type="button" className="btn btn-sm btn-light ml-3">
+          <button type="button" className="btn btn-sm btn-light ms-3">
             Submit
           </button>
         </li>

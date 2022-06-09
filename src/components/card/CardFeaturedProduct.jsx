@@ -6,7 +6,7 @@ const CardFeaturedProduct = (props) => {
   const products = props.data;
   return (
     <div className="card mb-3">
-      <div className="card-header font-weight-bold text-uppercase">
+      <div className="card-header fw-bold text-uppercase">
         Featured Products
       </div>
       <div className="card-body">
@@ -26,12 +26,12 @@ const CardFeaturedProduct = (props) => {
               </h6>
               <div className="mb-2">
                 {Array.from({ length: product.star }, (_, key) => (
-                  <IconStarFill className="text-warning mr-1" key={key} />
+                  <IconStarFill className="text-warning me-1" key={key} />
                 ))}
               </div>
-              <span className="font-weight-bold h5">${product.price}</span>
+              <span className="fw-bold h5">${product.price}</span>
               {product.originPrice > 0 && (
-                <del className="small text-muted ml-2">
+                <del className="small text-muted ms-2">
                   ${product.originPrice}
                 </del>
               )}

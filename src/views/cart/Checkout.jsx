@@ -102,7 +102,7 @@ class CheckoutView extends Component {
               <div className="card mb-3">
                 <div className="card-header">
                   <IconReceipt className="i-va" /> Billing Infomation
-                  <div className="form-check form-check-inline ml-3">
+                  <div className="form-check form-check-inline ms-3">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -187,7 +187,7 @@ class CheckoutView extends Component {
                           <img
                             src="../../images/payment/cards.webp"
                             alt="..."
-                            className="ml-3"
+                            className="ms-3"
                             height={26}
                           />
                         </label>
@@ -207,7 +207,7 @@ class CheckoutView extends Component {
                           <img
                             src="../../images/payment/paypal_64.webp"
                             alt="..."
-                            className="ml-3"
+                            className="ms-3"
                             height={26}
                           />
                         </label>
@@ -252,8 +252,8 @@ class CheckoutView extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="card-footer border-info">
-                  <button type="button" className="btn btn-block btn-info">
+                <div className="card-footer border-info d-grid">
+                  <button type="button" className="btn btn-info">
                     Pay Now <strong>$162</strong>
                   </button>
                 </div>
@@ -263,7 +263,7 @@ class CheckoutView extends Component {
               <div className="card">
                 <div className="card-header">
                   <IconCart3 className="i-va" /> Cart{" "}
-                  <span className="badge bg-secondary float-right">3</span>
+                  <span className="badge bg-secondary float-end">3</span>
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item d-flex justify-content-between lh-sm">

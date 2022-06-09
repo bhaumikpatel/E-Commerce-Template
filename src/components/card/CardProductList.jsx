@@ -15,26 +15,26 @@ const CardProductList = (props) => {
         </div>
         <div className="col-md-6">
           <div className="card-body">
-            <h6 className="card-subtitle mr-2 d-inline">
+            <h6 className="card-subtitle me-2 d-inline">
               <Link to={product.link} className="text-decoration-none">
                 {product.name}
               </Link>
             </h6>
             {product.isNew && (
-              <span className="badge bg-success mr-2">New</span>
+              <span className="badge bg-success me-2">New</span>
             )}
-            {product.isHot && <span className="badge bg-danger mr-2">Hot</span>}
+            {product.isHot && <span className="badge bg-danger me-2">Hot</span>}
 
             <div>
               {product.star > 0 &&
                 Array.from({ length: 5 }, (_, key) => {
                   if (key <= product.star)
                     return (
-                      <IconStarFill className="text-warning mr-1" key={key} />
+                      <IconStarFill className="text-warning me-1" key={key} />
                     );
                   else
                     return (
-                      <IconStarFill className="text-secondary mr-1" key={key} />
+                      <IconStarFill className="text-secondary me-1" key={key} />
                     );
                 })}
             </div>
@@ -54,14 +54,14 @@ const CardProductList = (props) => {
         <div className="col-md-3">
           <div className="card-body">
           <div className="mb-2">
-            <span className="font-weight-bold h5">${product.price}</span>
+            <span className="fw-bold h5">${product.price}</span>
             {product.originPrice > 0 && (
-              <del className="small text-muted ml-2">
+              <del className="small text-muted ms-2">
                 ${product.originPrice}
               </del>
             )}
             {(product.discountPercentage > 0 || product.discountPrice > 0) && (
-              <span className={`rounded p-1 bg-warning ml-2 small`}>
+              <span className={`rounded p-1 bg-warning ms-2 small`}>
                 -
                 {product.discountPercentage > 0
                   ? product.discountPercentage + "%"
@@ -75,7 +75,7 @@ const CardProductList = (props) => {
             </p>
           )}
 
-          <div className="btn-group btn-block" role="group">
+          <div className="btn-group d-flex" role="group">
             <button
               type="button"
               className="btn btn-sm btn-primary"

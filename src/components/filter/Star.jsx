@@ -4,7 +4,7 @@ import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.
 const FilterStar = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header font-weight-bold text-uppercase">
+      <div className="card-header fw-bold text-uppercase">
         Customer Review
       </div>
       <div className="card-body">
@@ -20,11 +20,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault5"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -39,11 +39,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault4"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -58,11 +58,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault3"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -77,11 +77,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault2"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -96,11 +96,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault1"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
-            <IconStarFill className="text-secondary mr-1 mb-2" />
+            <IconStarFill className="text-warning me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
+            <IconStarFill className="text-secondary me-1 mb-2" />
           </label>
         </div>
       </div>

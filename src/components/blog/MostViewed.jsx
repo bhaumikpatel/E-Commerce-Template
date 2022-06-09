@@ -5,7 +5,7 @@ const Line = lazy(() => import("../others/Line"));
 const MostViewed = (props) => {
   return (
     <div className={`mb-4 px-4 ${props.className ? props.className : ""}`}>
-      <h4 className="font-italic">{props.title}</h4>
+      <h4 className="fst-italic">{props.title}</h4>
       <Line className="mb-2" />
       <div className="card text-white">
         <Link to="/" className="stretched-link text-decoration-none text-white">

@@ -30,7 +30,7 @@ class SupportView extends Component {
               <div className="col-md-4">
                 <div className="row bg-white p-4 text-center">
                   <div className="col-2">
-                    <IconJournalCheck className="i-va display-5 text-warning" />
+                    <IconJournalCheck className="i-va display-5 text-warning" width={48} height={48} />
                   </div>
                   <div className="col">
                     <h5>Knowledge Base</h5>
@@ -43,7 +43,7 @@ class SupportView extends Component {
               <div className="col-md-4">
                 <div className="row bg-white p-4 text-center">
                   <div className="col-2">
-                    <IconChatRightText className="i-va display-5 text-success" />
+                    <IconChatRightText className="i-va display-5 text-success" width={48} height={48} />
                   </div>
                   <div className="col">
                     <h5>Forums</h5>
@@ -54,7 +54,7 @@ class SupportView extends Component {
               <div className="col-md-4">
                 <div className="row bg-white p-4 text-center">
                   <div className="col-2">
-                    <IconNewspaper className="i-va display-5 text-danger" />
+                    <IconNewspaper className="i-va display-5 text-danger" width={48} height={48} />
                   </div>
                   <div className="col">
                     <h5>News</h5>
@@ -73,8 +73,8 @@ class SupportView extends Component {
               <div className="col-md-3">
                 <div className="border pt-3">
                   <div className="text-center py-2">
-                    <IconPersonSquare className="i-va display-6 text-info" />
-                    <div className="font-weight-bold py-2">My Account</div>
+                    <IconPersonSquare className="i-va display-6 text-info" width={40} height={40} />
+                    <div className="fw-bold py-2">My Account</div>
                   </div>
                   <div className="list-group list-group-flush">
                     <Link
@@ -113,8 +113,8 @@ class SupportView extends Component {
               <div className="col-md-3">
                 <div className="border pt-3">
                   <div className="text-center py-2">
-                    <IconReceiptCutoff className="i-va display-6 text-warning" />
-                    <div className="font-weight-bold py-2">
+                    <IconReceiptCutoff className="i-va display-6 text-warning" width={40} height={40} />
+                    <div className="fw-bold py-2">
                       Charges & Refunds
                     </div>
                   </div>
@@ -155,8 +155,8 @@ class SupportView extends Component {
               <div className="col-md-3">
                 <div className="border pt-3">
                   <div className="text-center py-2">
-                    <IconCalculator className="i-va display-6 text-danger" />
-                    <div className="font-weight-bold py-2">
+                    <IconCalculator className="i-va display-6 text-danger" width={40} height={40} />
+                    <div className="fw-bold py-2">
                       Accounting & Textes
                     </div>
                   </div>
@@ -197,8 +197,8 @@ class SupportView extends Component {
               <div className="col-md-3">
                 <div className="border pt-3">
                   <div className="text-center py-2">
-                    <IconCart3 className="i-va display-6 text-success" />
-                    <div className="font-weight-bold py-2">Cart</div>
+                    <IconCart3 className="i-va display-6 text-success" width={40} height={40} />
+                    <div className="fw-bold py-2">Cart</div>
                   </div>
                   <div className="list-group list-group-flush">
                     <Link

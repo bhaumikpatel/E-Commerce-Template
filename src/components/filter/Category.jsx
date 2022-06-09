@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const FilterCategory = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header font-weight-bold text-uppercase">
+      <div className="card-header fw-bold text-uppercase">
         Categories
       </div>
       <ul className="list-group list-group-flush">

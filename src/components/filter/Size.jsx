@@ -3,7 +3,7 @@ import React from "react";
 const FilterSize = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header font-weight-bold text-uppercase">Size</div>
+      <div className="card-header fw-bold text-uppercase">Size</div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
           <div className="row g-0">
