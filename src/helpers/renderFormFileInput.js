@@ -11,7 +11,9 @@ const handleChange = (event, input, onImageChange) => {
     } else {
       var fileSize = imageFile.size / 1024 / 1024; // in MB
       if (fileSize > 5) {
-        alert(`Photo size must be less or equal to 5MB. Your photo size is ${fileSize}`);
+        alert(
+          `Photo size must be less or equal to 5MB. Your photo size is ${fileSize}`
+        );
       } else {
         input.onChange(imageFile);
         onImageChange(imageFile);
@@ -32,21 +34,18 @@ const renderFileInput = (props) => {
   } = props;
   return (
     <React.Fragment>
-      <div className="input-group mb-3">
-        <div className="form-file form-file-sm">
-          <input
-            type="file"
-            name="formFile"
-            className="form-file-input"
-            id={input.name}
-            accept="image/x-png,image/jpeg"
-            onChange={(event) => handleChange(event, input, onImageChange)}
-            required
-          />
-          <label className="form-file-label" htmlFor={input.name}>
-            <span className="form-file-text">Choose file...</span>
-            <span className="form-file-button">Browse</span>
-          </label>
+      <div className="mb-3">
+        <label className="form-label d-none" htmlFor={input.name}>{input.name}</label>
+        <input
+          type="file"
+          name="formFile"
+          className="form-control form-control-sm"
+          id={input.name}
+          accept="image/x-png,image/jpeg"
+          onChange={(event) => handleChange(event, input, onImageChange)}
+          required
+        />
+        <div className="d-flex">
           {tips && <div className="form-text">{tips}</div>}
           {touched &&
             ((error && <div className="invalid-feedback">{error}</div>) ||
