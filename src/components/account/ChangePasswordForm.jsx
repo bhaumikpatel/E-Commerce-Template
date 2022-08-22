@@ -3,15 +3,15 @@ import { Field, reduxForm } from "redux-form";
 import { compose } from "redux";
 import renderFormGroupField from "../../helpers/renderFormGroupField";
 import { required, maxLength20, minLength8 } from "../../helpers/validation";
-import { ReactComponent as IconShieldLockFill } from "bootstrap-icons/icons/shield-lock-fill.svg";
-import { ReactComponent as IconKeyFill } from "bootstrap-icons/icons/key-fill.svg";
+import { ReactComponent as IconShieldLock } from "bootstrap-icons/icons/shield-lock.svg";
+import { ReactComponent as IconKey } from "bootstrap-icons/icons/key.svg";
 
 const ChangePasswordForm = (props) => {
   const { handleSubmit, submitting, onSubmit, submitFailed } = props;
   return (
     <div className="card border-info">
       <h6 className="card-header bg-info text-white">
-        <IconKeyFill /> Change Password
+        <IconKey /> Change Password
       </h6>
       <div className="card-body">
         <form
@@ -25,7 +25,7 @@ const ChangePasswordForm = (props) => {
             label="Current Password"
             component={renderFormGroupField}
             placeholder="******"
-            icon={IconShieldLockFill}
+            icon={IconShieldLock}
             validate={[required, maxLength20, minLength8]}
             required={true}
             maxLength="20"
@@ -38,7 +38,7 @@ const ChangePasswordForm = (props) => {
             label="New Password"
             component={renderFormGroupField}
             placeholder="******"
-            icon={IconShieldLockFill}
+            icon={IconShieldLock}
             validate={[required, maxLength20, minLength8]}
             required={true}
             maxLength="20"
@@ -51,7 +51,7 @@ const ChangePasswordForm = (props) => {
             label="Confirm New password"
             component={renderFormGroupField}
             placeholder="******"
-            icon={IconShieldLockFill}
+            icon={IconShieldLock}
             validate={[required, maxLength20, minLength8]}
             required={true}
             maxLength="20"

@@ -18,16 +18,16 @@ const Follow = (props) => {
     >
       <h4 className="fst-italic">{props.title}</h4>
       <Line className="mb-2" />
-      <Link to="/" className="btn btn-sm bg-twitter me-2">
+      <Link to="/" className="btn btn-light btn-sm bg-twitter me-2">
         <FontAwesomeIcon icon={faTwitter} className="text-white mx-1" />
       </Link>
-      <Link to="/" className="btn btn-sm bg-facebook me-2">
+      <Link to="/" className="btn btn-light btn-sm bg-facebook me-2">
         <FontAwesomeIcon icon={faFacebookF} className="text-white mx-1" />
       </Link>
-      <Link to="/" className="btn btn-sm bg-instagram me-2">
+      <Link to="/" className="btn btn-light btn-sm bg-instagram me-2">
         <FontAwesomeIcon icon={faInstagram} className="text-white mx-1" />
       </Link>
-      <Link to="/" className="btn btn-sm bg-google me-2">
+      <Link to="/" className="btn btn-light btn-sm bg-google me-2">
         <FontAwesomeIcon icon={faYoutube} className="text-white mx-1" />
       </Link>
     </div>
