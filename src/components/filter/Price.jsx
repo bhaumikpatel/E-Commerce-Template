@@ -3,8 +3,16 @@ import React from "react";
 const FilterPrice = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header fw-bold text-uppercase">Price</div>
-      <ul className="list-group list-group-flush">
+      <div
+        className="card-header fw-bold text-uppercase accordion-icon-button"
+        data-bs-toggle="collapse"
+        data-bs-target="#filterPrice"
+        aria-expanded="true"
+        aria-controls="filterPrice"
+      >
+        Price
+      </div>
+      <ul className="list-group list-group-flush show" id="filterPrice">
         <li className="list-group-item">
           <div className="form-check">
             <input
