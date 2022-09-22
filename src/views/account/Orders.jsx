@@ -6,6 +6,7 @@ import {
   faExclamationTriangle,
   faHistory,
   faTimesCircle,
+  faFileInvoice,
 } from "@fortawesome/free-solid-svg-icons";
 
 class OrdersView extends Component {
@@ -65,12 +66,29 @@ class OrdersView extends Component {
                     </div>
                     <div className="mt-2"></div>
                   </div>
-                  <div className="card-footer">
-                    <span className="me-2">Status:</span>
-                    <span className="text-success">
-                      <FontAwesomeIcon icon={faCheckCircle} className="me-1" />
-                      Completed
-                    </span>
+                  <div className="card-footer d-flex justify-content-between">
+                    <div>
+                      <span className="me-2">Status:</span>
+                      <span className="text-success">
+                        <FontAwesomeIcon
+                          icon={faCheckCircle}
+                          className="me-1"
+                        />
+                        Completed
+                      </span>
+                    </div>
+                    <div>
+                      <span className="me-2">Invoice:</span>
+                      <span className="text-success">
+                        <Link to="/invoice">
+                          <FontAwesomeIcon
+                            icon={faFileInvoice}
+                            className="me-1"
+                          />
+                          Download
+                        </Link>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>

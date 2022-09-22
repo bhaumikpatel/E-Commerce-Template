@@ -16,10 +16,10 @@ import {
   email,
   maxLength1000,
 } from "../helpers/validation";
-import { ReactComponent as IconPersonFill } from "bootstrap-icons/icons/person-fill.svg";
+import { ReactComponent as IconPerson } from "bootstrap-icons/icons/person.svg";
 import { ReactComponent as IconBuilding } from "bootstrap-icons/icons/building.svg";
-import { ReactComponent as IconPhoneFill } from "bootstrap-icons/icons/phone-fill.svg";
-import { ReactComponent as IconEnvelopeFill } from "bootstrap-icons/icons/envelope-fill.svg";
+import { ReactComponent as IconPhone } from "bootstrap-icons/icons/phone.svg";
+import { ReactComponent as IconEnvelope } from "bootstrap-icons/icons/envelope.svg";
 
 const ContactUsForm = (props) => {
   const { handleSubmit, submitting, onSubmit, submitFailed } = props;
@@ -37,7 +37,7 @@ const ContactUsForm = (props) => {
             label="Name"
             component={renderFormGroupField}
             placeholder="Your full name"
-            icon={IconPersonFill}
+            icon={IconPerson}
             required={true}
             validate={[required, maxLength50, name]}
             pattern="[a-zA-Z\s]*"
@@ -69,7 +69,7 @@ const ContactUsForm = (props) => {
             label="Mobile no"
             component={renderFormGroupField}
             placeholder="Mobile no with country code"
-            icon={IconPhoneFill}
+            icon={IconPhone}
             validate={[required, maxLengthMobileNo, minLengthMobileNo, digit]}
             required={true}
             max="999999999999999"
@@ -84,7 +84,7 @@ const ContactUsForm = (props) => {
             label="Email address"
             component={renderFormGroupField}
             placeholder="Your email address"
-            icon={IconEnvelopeFill}
+            icon={IconEnvelope}
             validate={[required, maxLength50, email]}
             maxLength="50"
             required={true}

@@ -3,8 +3,16 @@ import React from "react";
 const FilterSize = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header fw-bold text-uppercase">Size</div>
-      <ul className="list-group list-group-flush">
+      <div
+        className="card-header fw-bold text-uppercase accordion-icon-button"
+        data-bs-toggle="collapse"
+        data-bs-target="#filterSize"
+        aria-expanded="true"
+        aria-controls="filterSize"
+      >
+        Size
+      </div>
+      <ul className="list-group list-group-flush show" id="filterSize">
         <li className="list-group-item">
           <div className="row g-0">
             <div className="form-check col">

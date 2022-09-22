@@ -85,13 +85,13 @@ class ProductListView extends Component {
             </div>
             <div className="col-md-9">
               <div className="row">
-                <div className="col-md-8">
+                <div className="col-7">
                   <span className="align-middle fw-bold">
                     {this.state.totalItems} results for{" "}
                     <span className="text-warning">"t-shirts"</span>
                   </span>
                 </div>
-                <div className="col-md-4">
+                <div className="col-5 d-flex justify-content-end">
                   <select
                     className="form-select mw-180 float-start"
                     aria-label="Default select"

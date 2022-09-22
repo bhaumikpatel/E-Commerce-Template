@@ -1,7 +1,7 @@
 import React, { lazy, Component } from "react";
-import { ReactComponent as IconEnvelopeFill } from "bootstrap-icons/icons/envelope-fill.svg";
-import { ReactComponent as IconHouseFill } from "bootstrap-icons/icons/house-fill.svg";
-import { ReactComponent as IconTelephoneFill } from "bootstrap-icons/icons/telephone-fill.svg";
+import { ReactComponent as IconEnvelope } from "bootstrap-icons/icons/envelope.svg";
+import { ReactComponent as IconHouse } from "bootstrap-icons/icons/house.svg";
+import { ReactComponent as IconTelephone } from "bootstrap-icons/icons/telephone.svg";
 
 const ContactUsForm = lazy(() => import("../../components/ContactUsForm"));
 
@@ -17,7 +17,7 @@ class ContactUsView extends Component {
           <div className="col-md-8">
             <div className="card">
               <div className="card-header">
-                <IconEnvelopeFill className="i-va" /> Send Message
+                <IconEnvelope className="i-va" /> Send Message
               </div>
               <div className="card-body">
                 <ContactUsForm onSubmit={this.onSubmit} />
@@ -27,7 +27,7 @@ class ContactUsView extends Component {
           <div className="col-md-4">
             <div className="card mb-3">
               <div className="card-header">
-                <IconHouseFill className="i-va" /> Address
+                <IconHouse className="i-va" /> Address
               </div>
               <div className="card-body">
                 <h6 className="card-title border-bottom border-dark pb-2">Head Office</h6>
@@ -38,7 +38,7 @@ class ContactUsView extends Component {
                   <br />
                   San Francisco, CA 94103
                   <br />
-                  <IconTelephoneFill className="i-va" />{" "}
+                  <IconTelephone className="i-va" />{" "}
                   <abbr title="Phone">P:</abbr> (123) 456-7890
                 </address>
                 <h6 className="card-title border-bottom border-dark pb-2">Development Office</h6>
@@ -49,7 +49,7 @@ class ContactUsView extends Component {
                   <br />
                   San Francisco, CA 94103
                   <br />
-                  <IconTelephoneFill className="i-va" />{" "}
+                  <IconTelephone className="i-va" />{" "}
                   <abbr title="Phone">P:</abbr> (123) 456-7890
                 </address>
               </div>

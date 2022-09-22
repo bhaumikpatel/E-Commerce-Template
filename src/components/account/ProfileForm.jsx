@@ -11,8 +11,8 @@ import {
   name,
   email,
 } from "../../helpers/validation";
-import { ReactComponent as IconPersonFill } from "bootstrap-icons/icons/person-fill.svg";
-import { ReactComponent as IconPhoneFill } from "bootstrap-icons/icons/phone-fill.svg";
+import { ReactComponent as IconPerson } from "bootstrap-icons/icons/person.svg";
+import { ReactComponent as IconPhone } from "bootstrap-icons/icons/phone.svg";
 import { ReactComponent as IconEnvelop } from "bootstrap-icons/icons/envelope.svg";
 import { ReactComponent as IconGeoAlt } from "bootstrap-icons/icons/geo-alt.svg";
 import { ReactComponent as IconCalendarEvent } from "bootstrap-icons/icons/calendar-event.svg";
@@ -62,7 +62,7 @@ const ProfileForm = (props) => {
               type="text"
               component={renderFormGroupField}
               placeholder="Your name"
-              icon={IconPersonFill}
+              icon={IconPerson}
               validate={[required, name]}
               required={true}
             />
@@ -73,7 +73,7 @@ const ProfileForm = (props) => {
               type="number"
               component={renderFormGroupField}
               placeholder="Mobile no without country code"
-              icon={IconPhoneFill}
+              icon={IconPhone}
               validate={[required, maxLengthMobileNo, minLengthMobileNo, digit]}
               required={true}
               max="999999999999999"

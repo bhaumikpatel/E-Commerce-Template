@@ -9,7 +9,7 @@ import {
   minLengthMobileNo,
   digit,
 } from "../../helpers/validation";
-import { ReactComponent as IconPhoneFill } from "bootstrap-icons/icons/phone-fill.svg";
+import { ReactComponent as IconPhone } from "bootstrap-icons/icons/phone.svg";
 
 const ForgotPasswordForm = (props) => {
   const { handleSubmit, submitting, onSubmit, submitFailed } = props;
@@ -25,7 +25,7 @@ const ForgotPasswordForm = (props) => {
         label="Mobile no"
         component={renderFormGroupField}
         placeholder="Mobile no without country code"
-        icon={IconPhoneFill}
+        icon={IconPhone}
         validate={[required, maxLengthMobileNo, minLengthMobileNo, digit]}
         required={true}
         max="999999999999999"

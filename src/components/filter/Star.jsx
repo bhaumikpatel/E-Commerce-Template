@@ -4,10 +4,16 @@ import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.
 const FilterStar = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header fw-bold text-uppercase">
+      <div
+        className="card-header fw-bold text-uppercase accordion-icon-button"
+        data-bs-toggle="collapse"
+        data-bs-target="#filterStar"
+        aria-expanded="true"
+        aria-controls="filterStar"
+      >
         Customer Review
       </div>
-      <div className="card-body">
+      <div className="card-body show" id="filterStar">
         <div className="form-check">
           <input
             className="form-check-input"
