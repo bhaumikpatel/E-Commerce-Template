@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { ReactComponent as IconBootstrapFill } from "bootstrap-icons/icons/bootstrap-fill.svg";
-import { ReactComponent as IconPrinter } from "bootstrap-icons/icons/printer.svg";
-import { ReactComponent as IconDownload } from "bootstrap-icons/icons/download.svg";
 
 const Invoice = () => {
   return (
@@ -138,13 +136,13 @@ const Invoice = () => {
                 href="javascript:window.print()"
                 className="btn btn-light border text-black-50 shadow-none"
               >
-                <IconPrinter /> Print
+                <i className="bi bi-printer"></i> Print
               </a>
               <a
                 href="!#"
                 className="btn btn-light border text-black-50 shadow-none"
               >
-                <IconDownload /> Download
+                <i className="bi bi-download"></i> Download
               </a>
             </div>
           </div>
