@@ -34,10 +34,6 @@ Several quick start options are available:
 - Runs the app in the development mode `npm start`
 - Builds the app for production to the `build` folder `npm run build`
 
-## Buy Me A Coffee
-
-[![BuyMeACoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/bhaumik)
-
 ## What's included
 
 - Sign Up
