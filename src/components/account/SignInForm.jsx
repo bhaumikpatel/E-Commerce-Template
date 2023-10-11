@@ -11,12 +11,6 @@ import {
   minLengthMobileNo,
   digit,
 } from "../../helpers/validation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faFacebookF,
-  faGoogle,
-} from "@fortawesome/free-brands-svg-icons";
 import { ReactComponent as IconPhone } from "bootstrap-icons/icons/phone.svg";
 import { ReactComponent as IconShieldLock } from "bootstrap-icons/icons/shield-lock.svg";
 
@@ -81,13 +75,13 @@ const SignInForm = (props) => {
         </div>
         <div className="col- text-center">
           <Link to="/" className="btn btn-light text-white bg-twitter me-3">
-            <FontAwesomeIcon icon={faTwitter} />
+            <i className="bi bi-twitter-x" />
           </Link>
           <Link to="/" className="btn btn-light text-white me-3 bg-facebook">
-            <FontAwesomeIcon icon={faFacebookF} className="mx-1" />
+            <i className="bi bi-facebook mx-1" />
           </Link>
           <Link to="/" className="btn btn-light text-white me-3 bg-google">
-            <FontAwesomeIcon icon={faGoogle} className="mx-1" />
+            <i className="bi bi-google mx-1" />
           </Link>
         </div>
       </div>

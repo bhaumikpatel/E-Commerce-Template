@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
 
 const CardFeaturedProduct = (props) => {
   const products = props.data;
@@ -26,7 +24,7 @@ const CardFeaturedProduct = (props) => {
               </h6>
               <div className="mb-2">
                 {Array.from({ length: product.star }, (_, key) => (
-                  <IconStarFill className="text-warning me-1" key={key} />
+                  <i className="bi bi-star-fill text-warning me-1" key={key} />
                 ))}
               </div>
               <span className="fw-bold h5">${product.price}</span>

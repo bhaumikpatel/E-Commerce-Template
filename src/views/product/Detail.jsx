@@ -1,5 +1,4 @@
 import React, { Component, lazy } from "react";
-import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartPlus,
@@ -64,11 +63,11 @@ class ProductDetailView extends Component {
                 <span className="badge bg-success me-2">New</span>
                 <span className="badge bg-danger me-2">Hot</span>
                 <div className="mb-3">
-                  <IconStarFill className="text-warning me-1" />
-                  <IconStarFill className="text-warning me-1" />
-                  <IconStarFill className="text-warning me-1" />
-                  <IconStarFill className="text-warning me-1" />
-                  <IconStarFill className="text-secondary me-1" />|{" "}
+                  <i className="bi bi-star-fill text-warning me-1" />
+                  <i className="bi bi-star-fill text-warning me-1" />
+                  <i className="bi bi-star-fill text-warning me-1" />
+                  <i className="bi bi-star-fill text-warning me-1" />
+                  <i className="bi bi-star-fill text-secondary me-1" />|{" "}
                   <span className="text-muted small">
                     42 ratings and 4 reviews
                   </span>

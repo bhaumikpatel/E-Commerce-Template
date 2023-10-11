@@ -1,6 +1,3 @@
-import React from "react";
-import { ReactComponent as IconSearch } from "bootstrap-icons/icons/search.svg";
-
 const Search = () => {
   return (
     <form action="#" className="search">
@@ -19,7 +16,7 @@ const Search = () => {
           type="submit"
           aria-label="Search"
         >
-          <IconSearch />
+          <i className="bi bi-search"></i>
         </button>
       </div>
     </form>

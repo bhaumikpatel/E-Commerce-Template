@@ -1,9 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
-import { ReactComponent as IconTruckFill } from "bootstrap-icons/icons/truck.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const CardProductList = (props) => {
   const product = props.data;
@@ -30,11 +25,17 @@ const CardProductList = (props) => {
                 Array.from({ length: 5 }, (_, key) => {
                   if (key <= product.star)
                     return (
-                      <IconStarFill className="text-warning me-1" key={key} />
+                      <i
+                        className="bi bi-star-fill text-warning me-1"
+                        key={key}
+                      />
                     );
                   else
                     return (
-                      <IconStarFill className="text-secondary me-1" key={key} />
+                      <i
+                        className="bi bi-star-fill text-secondary me-1"
+                        key={key}
+                      />
                     );
                 })}
             </div>
@@ -53,44 +54,45 @@ const CardProductList = (props) => {
         </div>
         <div className="col-md-3">
           <div className="card-body">
-          <div className="mb-2">
-            <span className="fw-bold h5">${product.price}</span>
-            {product.originPrice > 0 && (
-              <del className="small text-muted ms-2">
-                ${product.originPrice}
-              </del>
+            <div className="mb-2">
+              <span className="fw-bold h5">${product.price}</span>
+              {product.originPrice > 0 && (
+                <del className="small text-muted ms-2">
+                  ${product.originPrice}
+                </del>
+              )}
+              {(product.discountPercentage > 0 ||
+                product.discountPrice > 0) && (
+                <span className={`rounded p-1 bg-warning ms-2 small`}>
+                  -
+                  {product.discountPercentage > 0
+                    ? product.discountPercentage + "%"
+                    : "$" + product.discountPrice}
+                </span>
+              )}
+            </div>
+            {product.isFreeShipping && (
+              <p className="text-success small mb-2">
+                <i className="bi bi-truck" /> Free shipping
+              </p>
             )}
-            {(product.discountPercentage > 0 || product.discountPrice > 0) && (
-              <span className={`rounded p-1 bg-warning ms-2 small`}>
-                -
-                {product.discountPercentage > 0
-                  ? product.discountPercentage + "%"
-                  : "$" + product.discountPrice}
-              </span>
-            )}
-          </div>
-          {product.isFreeShipping && (
-            <p className="text-success small mb-2">
-              <IconTruckFill /> Free shipping
-            </p>
-          )}
 
-          <div className="btn-group d-flex" role="group">
-            <button
-              type="button"
-              className="btn btn-sm btn-primary"
-              title="Add to cart"
-            >
-              <FontAwesomeIcon icon={faCartPlus} />
-            </button>
-            <button
-              type="button"
-              className="btn btn-sm btn-outline-secondary"
-              title="Add to wishlist"
-            >
-              <FontAwesomeIcon icon={faHeart} />
-            </button>
-          </div>
+            <div className="btn-group d-flex" role="group">
+              <button
+                type="button"
+                className="btn btn-sm btn-primary"
+                title="Add to cart"
+              >
+                <i className="bi bi-cart-plus" />
+              </button>
+              <button
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
+                title="Add to wishlist"
+              >
+                <i className="bi bi-heart-fill" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
