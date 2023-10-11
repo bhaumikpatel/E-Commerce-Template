@@ -1,7 +1,3 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
-
 const QuestionAnswer = (props) => {
   return (
     <div className="border-bottom mb-3">
@@ -14,10 +10,10 @@ const QuestionAnswer = (props) => {
         <div className="mb-2">
           <i>Was this answer helpful?</i>
           <button className="btn btn-sm btn-outline-success me-2 ms-2">
-            <FontAwesomeIcon icon={faThumbsUp} />
+            <i className="bi bi-hand-thumbs-up-fill"></i>
           </button>
           <button className="btn btn-sm btn-outline-danger me-2">
-            <FontAwesomeIcon icon={faThumbsDown} />
+            <i className="bi bi-hand-thumbs-down-fill"></i>
           </button>
         </div>
       </dd>
