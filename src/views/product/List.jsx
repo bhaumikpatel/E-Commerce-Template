@@ -1,7 +1,5 @@
 import React, { lazy, Component } from "react";
 import { data } from "../../data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTh, faBars } from "@fortawesome/free-solid-svg-icons";
 const Paging = lazy(() => import("../../components/Paging"));
 const Breadcrumb = lazy(() => import("../../components/Breadcrumb"));
 const FilterCategory = lazy(() => import("../../components/filter/Category"));
@@ -113,7 +111,7 @@ class ProductListView extends Component {
                           : "btn-outline-primary"
                       }`}
                     >
-                      <FontAwesomeIcon icon={faTh} />
+                      <i className="bi bi-grid" />
                     </button>
                     <button
                       aria-label="List"
@@ -125,7 +123,7 @@ class ProductListView extends Component {
                           : "btn-outline-primary"
                       }`}
                     >
-                      <FontAwesomeIcon icon={faBars} />
+                      <i className="bi bi-list" />
                     </button>
                   </div>
                 </div>
