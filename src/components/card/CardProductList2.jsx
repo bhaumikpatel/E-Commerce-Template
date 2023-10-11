@@ -1,9 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
-import { ReactComponent as IconTruckFill } from "bootstrap-icons/icons/truck.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const CardProductList2 = (props) => {
   const product = props.data;
@@ -26,7 +21,8 @@ const CardProductList2 = (props) => {
             {product.isHot && <span className="badge bg-danger me-2">Hot</span>}
             {product.star > 0 && (
               <span className="badge bg-secondary">
-                <IconStarFill className="text-warning i-va" width={12} height={12} /> {product.star}
+                <i className="bi bi-star-fill text-warning me-1" />
+                {product.star}
               </span>
             )}
           </div>
@@ -50,7 +46,7 @@ const CardProductList2 = (props) => {
               )}
               {product.isFreeShipping && (
                 <span className="text-success small mb-2">
-                  <IconTruckFill /> Free shipping
+                  <i className="bi bi-truck" /> Free shipping
                 </span>
               )}
             </div>
@@ -61,14 +57,14 @@ const CardProductList2 = (props) => {
                 className="btn btn-sm btn-primary"
                 title="Add to cart"
               >
-                <FontAwesomeIcon icon={faCartPlus} />
+                <i className="bi bi-cart-plus" />
               </button>
               <button
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
                 title="Add to wishlist"
               >
-                <FontAwesomeIcon icon={faHeart} />
+                <i className="bi bi-heart-fill" />
               </button>
             </div>
           </div>

@@ -1,6 +1,3 @@
-import React from "react";
-import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
-
 const FilterStar = (props) => {
   return (
     <div className="card mb-3">
@@ -26,11 +23,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault5"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -45,11 +42,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault4"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -64,11 +61,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault3"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -83,11 +80,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault2"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
           </label>
         </div>
         <div className="form-check">
@@ -102,11 +99,11 @@ const FilterStar = (props) => {
             htmlFor="flexRadioDefault1"
             aria-label="Star"
           >
-            <IconStarFill className="text-warning me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
-            <IconStarFill className="text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-warning me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
+            <i className="bi bi-star-fill text-secondary me-1 mb-2" />
           </label>
         </div>
       </div>

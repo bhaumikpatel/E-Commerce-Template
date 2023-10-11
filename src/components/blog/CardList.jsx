@@ -1,8 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as IconCalendarEvent } from "bootstrap-icons/icons/calendar-event.svg";
-import { ReactComponent as IconTags } from "bootstrap-icons/icons/tags.svg";
-import { ReactComponent as IconChatRightText } from "bootstrap-icons/icons/chat-right-text.svg";
 
 const CardList = (props) => {
   const item = props.data;
@@ -18,11 +14,11 @@ const CardList = (props) => {
         <p className="card-text">{item.description}</p>
         <p className="card-text">
           <small className="me-3">
-            <IconCalendarEvent className="i-va me-1" />
+            <i className="bi bi-calendar-event me-1" />
             {item.publishDate}
           </small>
           <small className="me-3">
-            <IconTags className="i-va me-1" />
+            <i className="bi bi-tags me-1" />
             {item.tags.map((item, idx) => (
               <span key={idx}>
                 <Link to="/" className="text-decoration-none">
@@ -33,7 +29,7 @@ const CardList = (props) => {
             ))}
           </small>
           <small className="">
-            <IconChatRightText className="i-va me-1" />
+            <i className="bi bi-chat-right-text me-1" />
             <Link to="/" className="text-decoration-none">
               {item.commentCount} Comments
             </Link>

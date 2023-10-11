@@ -1,8 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const CardProductGrid = (props) => {
   const product = props.data;
@@ -44,7 +40,7 @@ const CardProductGrid = (props) => {
           )}
           <span className="ms-2">
             {Array.from({ length: product.star }, (_, key) => (
-              <IconStarFill className="text-warning me-1" key={key} />
+              <i className="bi bi-star-fill text-warning me-1" key={key} />
             ))}
           </span>
         </div>
@@ -54,14 +50,14 @@ const CardProductGrid = (props) => {
             className="btn btn-sm btn-primary"
             title="Add to cart"
           >
-            <FontAwesomeIcon icon={faCartPlus} />
+            <i className="bi bi-cart-plus" />
           </button>
           <button
             type="button"
             className="btn btn-sm btn-outline-secondary"
             title="Add to wishlist"
           >
-            <FontAwesomeIcon icon={faHeart} />
+            <i className="bi bi-heart-fill" />
           </button>
         </div>
       </div>

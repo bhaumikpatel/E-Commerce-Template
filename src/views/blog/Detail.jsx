@@ -351,7 +351,7 @@ const BlogDetailView = () => {
               </Link>
               <div className="float-end">
                 <Link to="/" className="btn btn-sm bg-twitter me-2 p-0">
-                  <i class="bi bi-twitter-x text-white mx-1"></i>
+                  <i className="bi bi-twitter-x text-white mx-1"></i>
                 </Link>
                 <Link to="/" className="btn btn-sm bg-facebook me-2 p-0">
                   <i className="bi bi-facebook text-white mx-1"></i>

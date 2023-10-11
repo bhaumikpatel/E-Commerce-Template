@@ -16,7 +16,6 @@ import { ReactComponent as IconPhone } from "bootstrap-icons/icons/phone.svg";
 import { ReactComponent as IconEnvelop } from "bootstrap-icons/icons/envelope.svg";
 import { ReactComponent as IconGeoAlt } from "bootstrap-icons/icons/geo-alt.svg";
 import { ReactComponent as IconCalendarEvent } from "bootstrap-icons/icons/calendar-event.svg";
-import { ReactComponent as IconPersonSquareFill } from "bootstrap-icons/icons/person-lines-fill.svg";
 
 const ProfileForm = (props) => {
   const {
@@ -35,7 +34,7 @@ const ProfileForm = (props) => {
     >
       <div className="card border-primary">
         <h6 className="card-header">
-          <IconPersonSquareFill /> Profile Detail
+          <i className="bi bi-person-lines-fill" /> Profile Detail
         </h6>
         <img
           src={imagePreview ? imagePreview : "../../images/NO_IMG.png"}

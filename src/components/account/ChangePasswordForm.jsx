@@ -4,14 +4,13 @@ import { compose } from "redux";
 import renderFormGroupField from "../../helpers/renderFormGroupField";
 import { required, maxLength20, minLength8 } from "../../helpers/validation";
 import { ReactComponent as IconShieldLock } from "bootstrap-icons/icons/shield-lock.svg";
-import { ReactComponent as IconKey } from "bootstrap-icons/icons/key.svg";
 
 const ChangePasswordForm = (props) => {
   const { handleSubmit, submitting, onSubmit, submitFailed } = props;
   return (
     <div className="card border-info">
       <h6 className="card-header bg-info text-white">
-        <IconKey /> Change Password
+      <i className="bi bi-key"></i> Change Password
       </h6>
       <div className="card-body">
         <form

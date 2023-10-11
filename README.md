@@ -54,11 +54,11 @@ Several quick start options are available:
 ## Thanks
 
 <a href="https://www.getbootstrap.com/" title="Bootstrap" target="_blank">
-  <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap Logo" width="200" height="150">
+  <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap Logo">
 </a>
-<a href="https://reactjs.org/" title="React JS" target="_blank"><img src="https://reactjs.org/logo-180x180.png" alt="React Logo" width="180" height="180">
+<a href="https://reactjs.org/" title="React JS" target="_blank"><img src="https://skillicons.dev/icons?i=react" alt="React Logo">
 </a>
-<a href="https://fontawesome.com/" title="Font Awesome" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Font_Awesome_5_logo_black.svg" alt="Font Awesome Logo" width="180" height="180">
+<a href="https://fontawesome.com/" title="Font Awesome" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Font_Awesome_logomark_blue.svg" alt="Font Awesome Logo" width="48" height="48">
 </a>
 
 ## Copyright and license
