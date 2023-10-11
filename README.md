@@ -14,7 +14,6 @@ Built with React JS and Bootstrap 5
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Buy Me A Coffee](#buy-me-a-coffee)
 - [What's included](#whats-included)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
